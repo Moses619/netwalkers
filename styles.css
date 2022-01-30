@@ -1,0 +1,362 @@
+   body{
+        width: 1440px;
+        height: 1024px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+   }
+   
+   .nav-bar{
+    margin-top: -20px;
+    position: absolute;
+    width: 1440px;
+    height: 95px;
+    left: -15px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    background: url(assets/Rectangle\ 5.png);
+    position: absolute;
+    width: 69px;
+    height: 50px;
+    left: 38px;
+    top: 40px;
+}
+
+.inner-logo{
+    background-image: url(assets/logo\ box\ white.png);
+    width: 40px;
+    height: 50px;
+    left: 38px;
+    top: 40px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    
+    margin: auto;
+    background-position: 50% 50%;
+    
+}
+
+.rectangle{
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    left: 130px;
+    top: 40px;
+    background: #FDFAFA;
+    border: 6px solid #9C3030;
+    box-sizing: border-box;
+    margin-left: -15px;
+    
+}
+
+.inner-text{
+    margin-top: -10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 191px;
+    height: 51px;
+    left: 112px;
+    top: 48px;
+    font-family: Sofadi One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 51.3px;
+    color: #9C3030;
+    padding: auto;
+}
+
+
+.line-1{
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 407px;
+    top: 44px;
+    border: 4px solid #5B5B5B;
+    transform: rotate(180deg);
+    margin-left: -20px;
+}
+
+.line-2{
+    position: absolute;
+    margin-left: 13px;
+    width: 37px;
+    height: 0px;
+    left: 394px;
+    top: 60px;
+    border: 3px solid #5B5B5B;
+    transform: rotate(180deg);
+    margin-left: -7px;
+}
+
+.line-3{
+    position: absolute;
+    width: 50px;
+    height: 0px;
+    left: 407px;
+    top: 75px;
+    border: 4px solid #5B5B5B;
+    transform: rotate(180deg);
+    margin-left: -20px;
+}
+
+.heading{
+    position: absolute;
+    width: 365px;
+    height: 42px;
+    left: 444px;
+    top: 52px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    color: #5B5B5B;
+    margin-top: -2px;
+    margin-left: 60px;
+}
+
+.bell-icon{
+    position: absolute;
+    width: 40px;
+    height: 41.45px;
+    left: 1081px;
+    top: 50px;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    left: 17px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+  .avatar{
+      background: url(assets/—Pngtree—male\ avatar\ simple\ cartoon\ design_5230556.png);
+      position: absolute;
+      width: 50px;
+      height: 50.15px;
+      left: 1131px;
+      top: 35px;
+       
+  }
+
+  .name{
+    position: absolute;
+    width: 153px;
+    height: 28px;
+    left: 1197px;
+    top: 31px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #5B5B5B;
+}
+
+.arrow-down{
+    position: absolute;
+    left: 94.38%;
+    right: 4.58%;
+    top: 60px;
+    bottom: 92.74%;
+    background: #5B5B5B;
+}
+.choices{
+    position: absolute;
+    width: 347px;
+    height: 674px;
+    left: 0px;
+    top: 87px;
+    background: #FFFFFF;
+    box-shadow: 6px -5px 16px -5px rgba(0, 0, 0, 0.25);
+}
+
+.fa-building{
+    margin-left: -20px; 
+    margin-right: 30px;
+}
+.fa-syringe{
+    margin-left: -20px;
+    margin-right: 30px;
+}
+.fa-flask{
+    margin-left: -20px;
+    margin-right: 30px;
+}
+.fa-book-open{
+    margin-left: -28px;
+    margin-right: 100px;
+}
+.fa-motorcycle{
+    margin-left: -24px; 
+    margin-right: 65px;
+}
+.fa-microscope{
+    margin-left: -25px;
+    margin-right: 30px;
+}
+.fa-check-double{
+    margin-left: -30px;
+    margin-right: 95px;
+}
+.fa-money-bill-alt{
+    margin-left: -20px;
+    margin-right: 30px;
+}
+.fa-archive{
+    color: #9C3030;
+    margin-left: -20px;
+    margin-right: 30px;
+}
+
+.QC{
+    margin-left: -40px;
+}
+.admin{
+    margin-left: -55px;
+}
+.dispatch{
+    margin-left: -20px;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #C4C4C4;
+}
+
+.main-section{
+    position: absolute;
+    width: 1075px;
+    height: 480px;
+    left: 369px;
+    top: 87px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: -1px 0px 6px 5px #E5E5E5;
+    margin-left: -10px;
+    }
+.fa-arrow-right{
+    margin: 0 10px;
+}
+.page-2{
+    color: #5B5B5B;
+}
+    .main-text{
+        position: absolute;
+        width: 123px;
+        height: 28px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        top: -20px;
+        color: #5B5B5B;
+        left: 5px;
+    }
+
+footer{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: -1px 0px 6px 5px #E5E5E5;
+    height: 104px;
+    top: 580px;
+    margin-left: 370px;
+    margin-bottom: 0px;
+    width: 1075px;
+
+}
+
+.office{
+    display: flex;
+    align-items: center;
+    color: #5B5B5B;
+    justify-content: space-evenly;
+    font-family:Roboto;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 347px;
+    height: 36px;
+    left: 0px;
+    top: 761px;
+    background: #C4C4C4;
+    color: #5B5B5B;
+    margin-bottom: 5px;
+}
+.btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 347px;
+    height: 36px;
+    left: 0px;
+    top: 823px;
+    background: #EFEFEF;
+    color: #5B5B5B;
+    margin-bottom: 5px;
+}
+.btn-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 347px;
+    height: 36px;
+    left: 0px;
+    top: 885px;
+    background: #EFEFEF;
+    color: #5B5B5B;
+}
+
+.footer-left{
+    color: #5B5B5B;
+    width: 477px;
+    height: 22px;
+    left: 390px;
+    top: 959px;
+    margin-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    
+}
+
+.footer-right{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 480px;
+    margin-top: 0;
+    width: 499px;
+    height: 5px;
+    left: 925px;
+    top: 959px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 22px;
+    color: #5B5B5B;
+    margin-top: -40px;
+}
